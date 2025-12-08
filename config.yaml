@@ -1,0 +1,14 @@
+reddit:
+  client_id: "MET_TON_CLIENT_ID_ICI"
+  client_secret: "MET_TON_CLIENT_SECRET_ICI"
+  user_agent: "CloudMonitor/1.0 par ton_nom"
+
+app:
+  subreddits: ["aws", "azure", "github", "sysadmin"]
+  keywords: ["down", "outage", "error", "slow", "crash"]
+  check_interval: 60
+  history_days: 2
+
+backup:
+  num_posts: 100
+  output_file: "data/backup/reddit_sample.csv"
